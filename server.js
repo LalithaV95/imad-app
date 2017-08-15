@@ -42,46 +42,45 @@ function createTemplate(data) {
     var date=data.date;
     var content=data.content;
     
-var htmpTemplate =`
- <html>
- <head>
-    <title>${title}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="/ui/style.css" rel="stylesheet" />
- </head>
- <body>
- <b>
-   <div class="container">
-       <div>
-           <a href="/">Home</a>   
-       </div>
-       <div>
-         <p>
-           ${heading}
-         </p>
-        </div>
-        <div>
-           <p>
-          ${date} 
-           </p>
-        </div>
-        <div>
-            <p>
-           ${content}
-            </p>
-        </div>   
-           
-    </div>
-    </b>
-</body>
-
-</html>
+    var htmlTemplate =`
+         <html>
+         <head>
+            <title>${title}</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link href="/ui/style.css" rel="stylesheet" />
+         </head>
+         <body>
+         <b>
+           <div class="container">
+               <div>
+                   <a href="/">Home</a>   
+               </div>
+               <div>
+                 <p>
+                   ${heading}
+                 </p>
+                </div>
+                <div>
+                   <p>
+                  ${date} 
+                   </p>
+                </div>
+                <div>
+                    <p>
+                   ${content}
+                    </p>
+                </div>   
+                   
+            </div>
+            </b>
+        </body>
+        
+        </html>
 
 
 `;
+
 return htmlTemplate;
-
-
 }
 
 app.get('/', function (req, res) {
