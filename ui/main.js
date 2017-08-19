@@ -6,9 +6,8 @@ element.innerHTML='Content Changed! Wow!';
 
 var img=document.getElementById('madi');
 function moveRight(){
-   marginLeft = marginLeft +  "5px";
-   img.style.marginLeft=marginLeft + "px";
-
+   marginLeft = marginLeft + '10px';
+   img.style.marginLeft=marginLeft;
 
 }
 img.onclick=function(){
