@@ -5,10 +5,10 @@ var element = document.getElementById('id1');
 element.innerHTML='Content Changed! Wow!';
 
 var img=document.getElementById('madi');
-var marginLeft='0px';
+var marginLeft=0;
 function moveRight(){
-   marginLeft = marginLeft + '10px';
-   img.style.marginLeft=marginLeft;
+   marginLeft = marginLeft + '5';
+   img.style.marginLeft=marginLeft + 'px';
 
 }
 img.onclick=function(){
