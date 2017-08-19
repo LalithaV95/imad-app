@@ -34,4 +34,6 @@ request.onreadystatechange = function(){
      }
  }   
 };
+request.open('GET','http://lalithambigav.imad.hasura-app.io/counter');
+request.send(null);
 };
