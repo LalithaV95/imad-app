@@ -5,6 +5,7 @@ var element = document.getElementById('id1');
 element.innerHTML='Content Changed! Wow!';
 
 var img=document.getElementById('madi');
+var marginLeft='0px';
 function moveRight(){
    marginLeft = marginLeft + '10px';
    img.style.marginLeft=marginLeft;
