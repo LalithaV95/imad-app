@@ -6,6 +6,6 @@ element.innerHTML='Content Changed! Wow!';
 
 var img=document.getElementById('madi');
 img.onclick=function(){
-    img.style.moveLeft='100px';
+    img.style.marginLeft='100px';
 };
 
