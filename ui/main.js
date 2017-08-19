@@ -39,7 +39,7 @@ request.send(null);
 };
 
 var Input=document.getElementById('name');
-var name1=Input.value;
+var name=Input.value;
 var submit=document.getElementById("submit_btn");
 submit.onclick=function(){
     var names=["Name1","Name2","Name3","Name4"];
