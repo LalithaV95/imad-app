@@ -38,8 +38,8 @@ request.open('GET','http://lalithambigav.imad.hasura-app.io/counter',true);
 request.send(null);
 };
 
-var nameInput=document.getElementById('name');
-var name=nameInput.value;
+var Input=document.getElementById('name');
+var name=Input.value;
 var submit=document.getElementById("submit_btn");
 submit.onclick=function(){
     var names=["Name1","Name2","Name3","Name4"];
