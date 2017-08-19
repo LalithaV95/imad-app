@@ -6,7 +6,7 @@ element.innerHTML='Content Changed! Wow!';
 
 var madiImg=document.getElementById('madi');
 madiImg.onclick= function() {
-    madiImg.style.moveLeft='200px';
+    madiImg.style.moveLeft='100px';
     
 };
 
